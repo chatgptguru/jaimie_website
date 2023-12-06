@@ -36,7 +36,7 @@
   ------------------*/
   --width-container: 120rem;
   --height-header: 10rem;
-  --height-header--scroll: 8rem;
+  --height-header--scroll: 10rem;
 
   /* Transition and box shadow*/
   --transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
