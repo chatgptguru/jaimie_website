@@ -129,7 +129,7 @@ body {
   font-weight: var(--fw-bold);
   font-size: var(--fs-md);
   position: relative;
-  color: var(--color-white)
+  color: var(--color-white);
 }
 
 .section__subtitle::after {
@@ -348,7 +348,7 @@ body {
 .about__description {
   margin-bottom: 3rem;
   font-size: 20px;
-  color: var(--color-slogan)
+  color: var(--color-slogan);
 }
 
 .skills {
@@ -370,8 +370,6 @@ body {
 }
 
 .skills__content {
-  background-color: var(--color-bg-secondary);
-  box-shadow: var(--box-shadow);
   padding: 3rem;
   display: flex;
   justify-content: center;
@@ -382,6 +380,9 @@ body {
 .skills__item {
   margin-bottom: 1rem;
 }
+ul {
+  list-style-type: disc;
+}
 
 .skills__subtitle {
   text-align: center;
@@ -389,7 +390,7 @@ body {
 }
 
 .skills__item i {
-  color: var(--color-primary);
+  color: var(--color-slogan);
 }
 
 /* Qualification
@@ -737,7 +738,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .service__wrapper{
+  .service__wrapper {
     grid-template-columns: repeat(4, 1fr);
   }
 
