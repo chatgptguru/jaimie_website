@@ -34,7 +34,7 @@
 
   /* With & Height 
   ------------------*/
-  --width-container: 98rem;
+  --width-container: 120rem;
   --height-header: 10rem;
   --height-header--scroll: 8rem;
 
@@ -295,17 +295,6 @@ body {
   color: var(--color-white);
 }
 
-.hero__title::after {
-  position: absolute;
-  content: "";
-  background-color: var(--color-primary);
-  width: 10rem;
-  height: 0.5rem;
-  bottom: -2rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .hero__description {
   margin-bottom: 5rem;
   font-size: 20px;
@@ -364,6 +353,7 @@ body {
 
 .skills {
   justify-self: center;
+  margin-top: 30px;
 }
 
 .skills__title {
@@ -376,12 +366,17 @@ body {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-top: 80px;
 }
 
 .skills__content {
   background-color: var(--color-bg-secondary);
   box-shadow: var(--box-shadow);
   padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .skills__item {
@@ -483,12 +478,14 @@ body {
 --------------------------------------------------------------*/
 .project__content {
   max-width: 100%;
+  width: 100%;
   justify-self: center;
 }
 
 .project__img {
   margin-bottom: 2rem;
   height: 450px;
+  width: 100%;
   border-radius: 20px;
 }
 
@@ -721,7 +718,7 @@ body {
 
 @media screen and (min-width: 968px) {
   .about__wrapper {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .about__content {
@@ -730,7 +727,9 @@ body {
 
   .about__content,
   .skills__title {
-    text-align: initial;
+    text-align: center;
+    font-size: var(--fs-xxl);
+    margin-top: 35px;
   }
 
   .qualification__content,
