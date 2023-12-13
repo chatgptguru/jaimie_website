@@ -536,17 +536,18 @@ body {
 }
 
 .testimonial__description {
-  color: var(--color-white);
+  color: var(--color-slogan);
   margin-bottom: 3rem;
 }
 
 .testimonial__name {
-  font-size: var(--fs-md);
+  font-size: var(--fs-xl);
   margin-bottom: 0.5rem;
 }
 
 .testimonial__occupation {
   font-size: var(--fs-sm);
+  color: var(--color-white)
 }
 
 /* testimonial slide */
